@@ -1,5 +1,5 @@
 /*
- * বাংলা সংবাদ — FINAL Ads Loader v24
+ * বাংলা সংবাদ — FINAL Ads Loader v25
  * Same direct rendering engine used by the working ad slots + smart row retry.
  * Google Sheet Ads columns: A Position | B Active | C Image URL | D Click URL | E Title | F Ad Code
  * Supported: TOP, MIDDLE TOP, MIDDLE BOTTOM, BOTTOM, ALL, MIDDLE
@@ -11,7 +11,7 @@
   const SHEET_NAME = 'Ads';
   const SHEET_URL = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID +
     '/gviz/tq?tqx=out:json&sheet=' + encodeURIComponent(SHEET_NAME);
-  const VERSION = 'ads-v24-same-as-working-direct-final';
+  const VERSION = 'ads-v25-final-audit';
   // Built-in diagnostic fallback: this is NOT a paid/network ad. Set to false to hide it.
   const ENABLE_TEST_FALLBACK = true;
   const SHEET_TIMEOUT_MS = 5000;
